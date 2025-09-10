@@ -28,6 +28,6 @@ PLUGIN = Plugin(
         "linux": "linux",
     },
     checksum_filename_template=GITHUB_CHECKER_FLAG,
-    bin_path="clangd_{version}/bin/nvim",
+    bin_path="clangd_{version}/bin/clangd",
     custom_copy=_copy,
 )
